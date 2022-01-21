@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+input{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.general-categories{
+    width: auto;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding: 12px;   
+}
+button{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 100%;
+}
+.child-of-container{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.child-of-general{
+    width: 200px;
+    height: 50px;
+    /* background-color: blue; */
+    /* padding: 0px 10px; */
+    border: 1px solid #333;
+    color: #333;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.grandchild-of-general{
+    width: 200px;
+    height: 50px;
+    /* background-color: blue; */
+    /* padding: 0px 10px; */
+    border: 1px solid #333;
+    color: #333;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+.child-of-General-Input{
+    width: 100%!important;
+    height: 100%!important;
+}
+.child-of-container-two{
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.child-of-container-three{
+    width: 100%;
+    height: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fa-plus{
+    font-size: 15px;
+    color: green;
+}
+.fa-trash-alt{
+    font-size: 15px;
+    color: red;
+}
+.fa-pencil-alt{
+    font-size: 15px;
+    color: rgb(255, 0, 242);
+        
+}
